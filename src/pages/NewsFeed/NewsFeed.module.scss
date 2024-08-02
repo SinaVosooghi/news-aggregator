@@ -1,0 +1,24 @@
+.news-feed-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .article-results {
+    display: grid;
+    gap: 16px;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 24% 24% 24% 24%;
+    }
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+
+    .loading,
+    .error {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}

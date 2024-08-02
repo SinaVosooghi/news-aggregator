@@ -1,0 +1,19 @@
+.article-search {
+    padding: 20px;
+  
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+    }
+
+    .reset-button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      width: 100%;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 2rem;
+  background-color: #e1e1e6;
+  border-bottom: 2px solid #ccc;
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
